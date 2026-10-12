@@ -142,3 +142,19 @@
     color: var(--color-foreground);
   }
 }
+
+@font-face { font-family: "Castledown"; src: url("/__l5e/assets-v1/abbf0242-d8c3-4f85-ac7e-2d4df170f5c0/castledown-heavy.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Satoshi"; src: url("/__l5e/assets-v1/e58ce2d4-d360-4677-8d38-c6bf6fe350c5/Satoshi-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Satoshi"; src: url("/__l5e/assets-v1/9f6efbc3-9241-454b-86cd-0b7d228238ad/Satoshi-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Satoshi"; src: url("/__l5e/assets-v1/5a93eb79-224f-4ca2-b886-a2ecb728c51f/Satoshi-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+
+:root {
+  --reference-sky: oklch(0.97 0.055 195);
+  --reference-ink: oklch(0.34 0.058 193);
+  --reference-red: oklch(0.57 0.20 27);
+}
+.reference-shell { min-height: 100svh; background: var(--reference-sky); }
+.reference-experience { min-height: 100svh; font-family: "Satoshi", sans-serif; letter-spacing: 0; }
+.experience-error { min-height: 100svh; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px; color: var(--reference-ink); }
+.experience-error h1 { font-family: "Castledown", sans-serif; font-size: 52px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }

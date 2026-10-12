@@ -10,33 +10,63 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CodeOfConductRouteImport } from './routes/code-of-conduct'
+import { Route as PrivacyRouteImport } from './routes/privacy'
+import { Route as TravelGuidelinesRouteImport } from './routes/travel-guidelines'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CodeOfConductRoute = CodeOfConductRouteImport.update({
+  id: '/code-of-conduct',
+  path: '/code-of-conduct',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TravelGuidelinesRoute = TravelGuidelinesRouteImport.update({
+  id: '/travel-guidelines',
+  path: '/travel-guidelines',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/code-of-conduct': typeof CodeOfConductRoute
+  '/privacy': typeof PrivacyRoute
+  '/travel-guidelines': typeof TravelGuidelinesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/code-of-conduct': typeof CodeOfConductRoute
+  '/privacy': typeof PrivacyRoute
+  '/travel-guidelines': typeof TravelGuidelinesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/code-of-conduct': typeof CodeOfConductRoute
+  '/privacy': typeof PrivacyRoute
+  '/travel-guidelines': typeof TravelGuidelinesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/code-of-conduct' | '/privacy' | '/travel-guidelines'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/code-of-conduct' | '/privacy' | '/travel-guidelines'
+  id: '__root__' | '/' | '/code-of-conduct' | '/privacy' | '/travel-guidelines'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CodeOfConductRoute: typeof CodeOfConductRoute
+  PrivacyRoute: typeof PrivacyRoute
+  TravelGuidelinesRoute: typeof TravelGuidelinesRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +78,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/code-of-conduct': {
+      id: '/code-of-conduct'
+      path: '/code-of-conduct'
+      fullPath: '/code-of-conduct'
+      preLoaderRoute: typeof CodeOfConductRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/travel-guidelines': {
+      id: '/travel-guidelines'
+      path: '/travel-guidelines'
+      fullPath: '/travel-guidelines'
+      preLoaderRoute: typeof TravelGuidelinesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CodeOfConductRoute: CodeOfConductRoute,
+  PrivacyRoute: PrivacyRoute,
+  TravelGuidelinesRoute: TravelGuidelinesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

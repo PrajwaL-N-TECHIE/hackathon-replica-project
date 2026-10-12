@@ -861,7 +861,7 @@
         a = n(63593),
         l = n.n(a),
         s = n(9950);
-      const c = n.p + "static/media/ctf-flag-reveal.4f20d8ecd94a874f2d76.mp3";
+      const c = n.p + "/__l5e/assets-v1/fee4c227-0314-43cf-85a7-3485aee378c7/ctf-flag-reveal.4f20d8ecd94a874f2d76.mp3";
       const u =
         n.p + "/__l5e/assets-v1/7a51b8a8-fe0f-4da8-b06f-eaa1f213347d/entry-arrow.46fa2fecb08b35447054d4a2ba2c791e.svg";
       var d,
@@ -1147,8 +1147,8 @@
         a = n(9950);
       const l = {
           1: n.p + "/__l5e/assets-v1/83b77e1c-4675-4943-b557-22a7697e621b/sparkle1.a8b4024f8cc0f0272fb0.webp",
-          2: n.p + "static/media/sparkle2.686990cec15106368d61.webp",
-          3: n.p + "static/media/sparkle3.4702bd984c19669a46ba.webp",
+          2: n.p + "/__l5e/assets-v1/ee903bae-785d-4d88-af62-7f153384b610/sparkle2.686990cec15106368d61.webp",
+          3: n.p + "/__l5e/assets-v1/7626a170-abc6-4995-8796-8825229e869f/sparkle3.4702bd984c19669a46ba.webp",
         },
         s = { small: 20, medium: 40, large: 70 },
         c = (e) =>
@@ -2676,6 +2676,85 @@
       });
     },
     58642(e,t,n) { e.exports={}; },
+    2123(e) {
+      "use strict";
+      e.exports = function (e) {
+        if (e) throw e;
+      };
+    },
+    80755(e) {
+      "use strict";
+      var t = Object.prototype.hasOwnProperty,
+        n = Object.prototype.toString,
+        r = Object.defineProperty,
+        i = Object.getOwnPropertyDescriptor,
+        o = function (e) {
+          return "function" === typeof Array.isArray
+            ? Array.isArray(e)
+            : "[object Array]" === n.call(e);
+        },
+        a = function (e) {
+          if (!e || "[object Object]" !== n.call(e)) return !1;
+          var r,
+            i = t.call(e, "constructor"),
+            o =
+              e.constructor &&
+              e.constructor.prototype &&
+              t.call(e.constructor.prototype, "isPrototypeOf");
+          if (e.constructor && !i && !o) return !1;
+          for (r in e);
+          return "undefined" === typeof r || t.call(e, r);
+        },
+        l = function (e, t) {
+          r && "__proto__" === t.name
+            ? r(e, t.name, {
+                enumerable: !0,
+                configurable: !0,
+                value: t.newValue,
+                writable: !0,
+              })
+            : (e[t.name] = t.newValue);
+        },
+        s = function (e, n) {
+          if ("__proto__" === n) {
+            if (!t.call(e, n)) return;
+            if (i) return i(e, n).value;
+          }
+          return e[n];
+        };
+      e.exports = function e() {
+        var t,
+          n,
+          r,
+          i,
+          c,
+          u,
+          d = arguments[0],
+          f = 1,
+          p = arguments.length,
+          m = !1;
+        for (
+          "boolean" === typeof d &&
+            ((m = d), (d = arguments[1] || {}), (f = 2)),
+            (null == d || ("object" !== typeof d && "function" !== typeof d)) &&
+              (d = {});
+          f < p;
+          ++f
+        )
+          if (null != (t = arguments[f]))
+            for (n in t)
+              ((r = s(d, n)),
+                d !== (i = s(t, n)) &&
+                  (m && i && (a(i) || (c = o(i)))
+                    ? (c
+                        ? ((c = !1), (u = r && o(r) ? r : []))
+                        : (u = r && a(r) ? r : {}),
+                      l(d, { name: n, newValue: e(m, u, i) }))
+                    : "undefined" !== typeof i &&
+                      l(d, { name: n, newValue: i })));
+        return d;
+      };
+    },
     78768(e, t, n) {
       "use strict";
       var r, i;
@@ -24555,7 +24634,7 @@
     46903(e, t, n) {
       "use strict";
       e.exports =
-        n.p + "static/media/single-key-press.c4ed5344b53510447e47.mp3";
+        n.p + "/__l5e/assets-v1/14df9d9f-827f-4f36-8060-5960a8fc6478/single-key-press.c4ed5344b53510447e47.mp3";
     },
     74666(e, t, n) {
       "use strict";
@@ -26937,8 +27016,8 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
       const jt =
           n.p + "/__l5e/assets-v1/80451f37-437c-4b8b-a149-7f35914d8ca8/sky-birds-2.8e056a0ca6ee99a5dec8ed673222613f.svg",
         Dt = n.p + "static/media/sky-cloud.d63139abf14a06ab03f0.webp",
-        Lt = n.p + "static/media/sky-textures.fabb6ab064cd46831db1.webp",
-        _t = n.p + "static/media/waterloo-eng.f7484d0d0d301b6884d3.webp",
+        Lt = n.p + "/__l5e/assets-v1/d49ab48d-bc8e-4055-9e8c-d07428b6d4ee/sky-textures.fabb6ab064cd46831db1.webp",
+        _t = n.p + "/__l5e/assets-v1/b9de4354-7439-4393-b9a7-6f12a9463f96/waterloo-eng.f7484d0d0d301b6884d3.webp",
         Nt = "linear-gradient(\n  180deg,\n  #d7ce8a 0%,\n  "
           .concat(I.w4.colors.orange[700], " 37%,\n  ")
           .concat(I.w4.colors.red[700], " 68%,\n  ")
@@ -27861,38 +27940,38 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             t.createElement(Ze, null, n),
           );
         },
-        Kn = n.p + "static/media/bg-left-1200.daf5a5ec16b545bf3eb9.webp",
+        Kn = n.p + "/__l5e/assets-v1/adb5bb55-3575-4a81-8124-7947dd9180e7/bg-left-1200.daf5a5ec16b545bf3eb9.webp",
         Qn = n.p + "static/media/bg-left-mobile.6eb76724ecad74313820.webp",
-        Gn = n.p + "static/media/bg-left-tablet.ca6a33f8dd177c495610.webp",
+        Gn = n.p + "/__l5e/assets-v1/5951d0f8-b723-4879-8e69-69c2e3a23d99/bg-left-tablet.ca6a33f8dd177c495610.webp",
         Zn = n.p + "/__l5e/assets-v1/149dbe47-806d-4d61-b026-643458522860/bg-right-1200.ba4f5eb680172da5631c.webp",
         Jn = n.p + "/__l5e/assets-v1/0156ac8c-086f-4db3-8804-7df5b7c0c2c6/bg-right-mobile.f7378f3a1b1f2376c30f.webp",
-        er = n.p + "static/media/bg-right-tablet.fdcc6c2a1d6be9e935c0.webp",
-        tr = n.p + "static/media/flowers-center.c94f66e17c3e11195214.webp",
+        er = n.p + "/__l5e/assets-v1/1b1f8c12-b8f3-4df3-aee3-08722947d87e/bg-right-tablet.fdcc6c2a1d6be9e935c0.webp",
+        tr = n.p + "/__l5e/assets-v1/02ee92fa-9e43-4352-9cb7-dfc895053900/flowers-center.c94f66e17c3e11195214.webp",
         nr = n.p + "/__l5e/assets-v1/b474a968-d50e-4a20-8847-76f9308aeb12/flowers-left.11023c938b56462729a3.webp",
-        rr = n.p + "static/media/flowers-right.c4e4fce5184676fafff6.webp",
+        rr = n.p + "/__l5e/assets-v1/493d6cb6-32c8-4bb2-8af7-bac67b1e77d8/flowers-right.c4e4fce5184676fafff6.webp",
         ir = n.p + "/__l5e/assets-v1/5ee39c21-f6ed-41b4-a760-8fadd9e82b77/leaf-shadow-left.41341a660e4c0443b1b3.webp",
-        or = n.p + "static/media/leaf-shadow-right.719c0c5134d8e7c90b3e.webp",
+        or = n.p + "/__l5e/assets-v1/0618f0ab-6551-44bd-b29b-a388c637004c/leaf-shadow-right.719c0c5134d8e7c90b3e.webp",
         ar = n.p + "/__l5e/assets-v1/78aa3a3d-befc-4991-b4b8-9c21af1f370d/wooden-foot-left.6c863fb311e33906cccb.webp",
-        lr = n.p + "static/media/wooden-foot-right.9ed7c7e575ef291e33d0.webp",
+        lr = n.p + "/__l5e/assets-v1/4c24c464-1f86-4a96-87ed-f0bb5cac559d/wooden-foot-right.9ed7c7e575ef291e33d0.webp",
         sr = n.p + "/__l5e/assets-v1/8c45b405-f9cd-4c3e-a385-04ae49eb6204/wooden-plank.50abed4fb771259b523b.webp";
       var cr = n(48235),
         ur = n(58108);
-      const dr = n.p + "static/media/ctf-success.b306c338a64d9fc7bd8f.mp3",
-        fr = n.p + "static/media/gamecard-insert.32fd1c948ed5eaa7aef4.mp3",
-        pr = n.p + "static/media/challenge-screen.24c6ae2d3ffafa3ae215.webp",
-        mr = n.p + "static/media/go-button.653b75e1c177d070f0ea.webp",
+      const dr = n.p + "/__l5e/assets-v1/143fd649-34f4-46ab-9dcd-057ce5c5be3d/ctf-success.b306c338a64d9fc7bd8f.mp3",
+        fr = n.p + "/__l5e/assets-v1/56b5ec13-75f1-4a34-994f-656aaf614c5f/gamecard-insert.32fd1c948ed5eaa7aef4.mp3",
+        pr = n.p + "/__l5e/assets-v1/edd02bff-95c9-4a3e-97e4-fd05881f3804/challenge-screen.24c6ae2d3ffafa3ae215.webp",
+        mr = n.p + "/__l5e/assets-v1/01719c6a-5732-4c4f-874f-1bf6117e0215/go-button.653b75e1c177d070f0ea.webp",
         hr = n.p + "/__l5e/assets-v1/c03feae8-6bea-4a66-ac6d-ff4a3be0fdf5/gameboy-screen.ff1e9ed347841202e169.webp",
         gr = n.p + "/__l5e/assets-v1/bef26c52-b74c-4535-b128-08e47c131feb/gameboy.988509266d2c3e8a037e.webp",
-        vr = n.p + "static/media/gamecard-blue.d54a1e852bbd13d7ef3b.webp",
+        vr = n.p + "/__l5e/assets-v1/83f704a9-01f7-4ccb-aeb6-ff5b8aa88ebb/gamecard-blue.d54a1e852bbd13d7ef3b.webp",
         yr = n.p + "/__l5e/assets-v1/a9a873eb-d365-40c5-a409-a773cabf6802/gamecard-green.177a7d322fa8275cf5b9.webp",
-        br = n.p + "static/media/gamecard-orange.1f883240334d8f4542dc.webp",
-        wr = n.p + "static/media/gamecard-red.62a380923fe86b75f9df.webp",
+        br = n.p + "/__l5e/assets-v1/a8f37a12-f9cd-41c0-86cd-a2a3d5f8e98d/gamecard-orange.1f883240334d8f4542dc.webp",
+        wr = n.p + "/__l5e/assets-v1/b9c2a0f5-8228-429e-8176-e376eb762aef/gamecard-red.62a380923fe86b75f9df.webp",
         xr = n.p + "/__l5e/assets-v1/6221f01b-2e9c-470d-99c5-6166670f0ef8/gamecard-yellow.6109aa3b6269a6fd2951.webp",
-        kr = n.p + "static/media/countries-stat.3c165676510a88b3940c.webp",
-        Er = n.p + "static/media/hackers-stat.e4761093478caa2403df.webp",
-        Ar = n.p + "static/media/mentors-stat.7923f39dda61ced75ee7.webp",
-        Sr = n.p + "static/media/projects-stat.d358463252e1b36d091d.webp",
-        Cr = n.p + "static/media/schools-stat.bdeebd3802084db7a069.webp";
+        kr = n.p + "/__l5e/assets-v1/32714001-807c-4c42-a00f-963cc9736e2e/countries-stat.3c165676510a88b3940c.webp",
+        Er = n.p + "/__l5e/assets-v1/b31b6678-3564-4c7d-ba29-64684951d529/hackers-stat.e4761093478caa2403df.webp",
+        Ar = n.p + "/__l5e/assets-v1/da8c91d6-ab74-4f27-9312-3c9f735645f8/mentors-stat.7923f39dda61ced75ee7.webp",
+        Sr = n.p + "/__l5e/assets-v1/48dbd2b7-ac8a-42ad-911d-8a764ac8be6a/projects-stat.d358463252e1b36d091d.webp",
+        Cr = n.p + "/__l5e/assets-v1/ebeed0b7-8bf2-4c9b-a40d-c1d82b85bc80/schools-stat.bdeebd3802084db7a069.webp";
       var Tr, Pr, Or, zr, Fr, Ir, Mr, Rr, Hr, jr, Dr, Lr;
       const _r = 400,
         Nr = 0.79,
@@ -28546,7 +28625,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
           );
         },
         Fi = n.p + "/__l5e/assets-v1/4d3388af-e4f1-4b8b-88fe-0e63bd9a06c8/background.21a495cd0780ad142565.mp3",
-        Ii = n.p + "static/media/vinyl-body.9feb8558dfcf8ad12fb3.webp",
+        Ii = n.p + "/__l5e/assets-v1/5ea37800-28b2-4991-bcd2-f90a80115600/vinyl-body.9feb8558dfcf8ad12fb3.webp",
         Mi = n.p + "/__l5e/assets-v1/56a3fe04-2714-49f3-aa73-28388a20ce82/vinyl-disk.13baa5da72c772136a4c.webp",
         Ri = n.p + "/__l5e/assets-v1/20a3d576-1b33-4756-9ef2-7a61206c3fbd/vinyl-stick.dd031869201740ba264f.webp",
         Hi = n.p + "/__l5e/assets-v1/5633d94e-4c9f-4c34-9314-05feb9019bc5/volume-slider.baf981d159e8bd23e8ee.webp";
@@ -28981,7 +29060,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             rotateBy: 0,
           },
           {
-            src: n.p + "static/media/vinyl2.ddba1970546b4e5c3eb4.webp",
+            src: n.p + "/__l5e/assets-v1/ca9ee04e-1662-47fa-a1f4-ba7a2daf726e/vinyl2.ddba1970546b4e5c3eb4.webp",
             angle: 45,
             rotateBy: 45,
           },
@@ -28996,17 +29075,17 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             rotateBy: -45,
           },
           {
-            src: n.p + "static/media/vinyl5.f882a450aba65698c64e.webp",
+            src: n.p + "/__l5e/assets-v1/2d43b145-4fda-4040-ac92-bf3c3acb9772/vinyl5.f882a450aba65698c64e.webp",
             angle: 180,
             rotateBy: 0,
           },
           {
-            src: n.p + "static/media/vinyl6.f7d97aecc5e249dd0b09.webp",
+            src: n.p + "/__l5e/assets-v1/48d029cd-1d3a-4f51-b623-35de809dd4df/vinyl6.f7d97aecc5e249dd0b09.webp",
             angle: 225,
             rotateBy: 45,
           },
           {
-            src: n.p + "static/media/vinyl7.d8c060803a09fdb85271.webp",
+            src: n.p + "/__l5e/assets-v1/cb59e65f-87f0-4aa6-98f7-9597fccbd8d8/vinyl7.d8c060803a09fdb85271.webp",
             angle: 270,
             rotateBy: 0,
           },
@@ -29676,14 +29755,14 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
           return t(n);
         });
       }
-      const nl = n.p + "static/media/picnic-table.0b0db826e367b9ced6e2.webp",
-        rl = n.p + "static/media/picnic-table-mobile.072b48ab28a9d68c49ab.webp",
-        il = n.p + "static/media/table-edge.e09245c8e9d9c6d2df65.webp";
+      const nl = n.p + "/__l5e/assets-v1/7bb558e2-62dc-45f8-bace-597de1f29a26/picnic-table.0b0db826e367b9ced6e2.webp",
+        rl = n.p + "/__l5e/assets-v1/ba37cf35-1e09-4953-9597-7e86d9fcf148/picnic-table-mobile.072b48ab28a9d68c49ab.webp",
+        il = n.p + "/__l5e/assets-v1/54549cd3-43b5-44f3-ae7b-6d4fd33623f6/table-edge.e09245c8e9d9c6d2df65.webp";
       const ol =
-        n.p + "static/media/fuel-gradient.f96a5c9c6e510a6580acd49e3da5c37b.svg";
+        n.p + "/__l5e/assets-v1/59924d9b-818d-489f-b335-9c24ecdc1707/fuel-gradient.f96a5c9c6e510a6580acd49e3da5c37b.svg";
       var al = n(3989),
         ll = n(74666);
-      const sl = n.p + "static/media/cloud.f4f7235e1add7878fad9.webp";
+      const sl = n.p + "/__l5e/assets-v1/3befa2c5-021f-4533-97a3-0bfc8dcb0934/cloud.f4f7235e1add7878fad9.webp";
       var cl, ul;
       const dl = [
           "height",
@@ -29791,7 +29870,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
         };
       var hl;
       const gl = {
-          front: n.p + "static/media/mountain-front.72ad1bcc0cf2ace48cb8.webp",
+          front: n.p + "/__l5e/assets-v1/632e373c-7a4a-4bde-933d-4c53ffd4fa24/mountain-front.72ad1bcc0cf2ace48cb8.webp",
           back: n.p + "static/media/mountain-left.5401660b0f5473d0567f.webp",
         },
         vl = i.Ay.img(
@@ -29840,17 +29919,17 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
       var bl, wl, xl;
       const kl = {
           "flowers-cool":
-            n.p + "static/media/plains-flowers-cool.977733c418a5872c5d54.webp",
+            n.p + "/__l5e/assets-v1/c599d211-b9c7-4b67-918a-78b153d821d5/plains-flowers-cool.977733c418a5872c5d54.webp",
           "flowers-warm":
             n.p + "/__l5e/assets-v1/b8a17fa0-8318-4441-96c7-82bd909cb9b1/plains-flowers-warm.5a9ec61f26cb9b7bc23d.webp",
           "leaf-1-cool":
-            n.p + "static/media/plains-leaf-1-cool.60d99ac9209b17f085e4.webp",
+            n.p + "/__l5e/assets-v1/f68b782d-c1a7-4448-a72e-ddf0f98e2a52/plains-leaf-1-cool.60d99ac9209b17f085e4.webp",
           "leaf-1-warm":
-            n.p + "static/media/plains-leaf-1-warm.0d0df83b97310c591465.webp",
+            n.p + "/__l5e/assets-v1/81f8a6e2-14fa-4a09-9fdb-548a70e03b06/plains-leaf-1-warm.0d0df83b97310c591465.webp",
           "leaf-2-cool":
             n.p + "static/media/plains-leaf-2-cool.16baaa091e29af6d4abf.webp",
           "leaf-2-warm":
-            n.p + "static/media/plains-leaf-2-warm.0d1d10732771a522dbaf.webp",
+            n.p + "/__l5e/assets-v1/6e50d43a-e89c-4bc4-8fb6-3c9cc620d6cc/plains-leaf-2-warm.0d1d10732771a522dbaf.webp",
           "plant-cool":
             n.p + "/__l5e/assets-v1/ee1c95e2-44f6-438a-a7a1-a68563ddb19f/plains-plant-cool.62c2832b87118f0f0ff0.webp",
           "plant-warm":
@@ -29917,22 +29996,22 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             $rotation: m,
           });
         },
-        Ol = n.p + "static/media/map.159a810b2dd502febdf8.webp",
-        zl = n.p + "static/media/map-mobile.cdfa3cae558da8a8b935.webp",
+        Ol = n.p + "/__l5e/assets-v1/63d10eb3-4fae-4838-9b14-a9326f5db301/map.159a810b2dd502febdf8.webp",
+        zl = n.p + "/__l5e/assets-v1/23d1502c-fe20-43b1-acef-f84b5f64bfd5/map-mobile.cdfa3cae558da8a8b935.webp",
         Fl = n.p + "/__l5e/assets-v1/e4645dd0-e2cb-49aa-b633-e25e0e395c6b/map-mobile-720.72e989262b0cbe74ee4d.webp",
         Il = n.p + "/__l5e/assets-v1/9405f0bc-a459-499d-8765-c67159cf149a/vinyl.eb05d3145b097bb4b1bf.webp",
-        Ml = n.p + "static/media/vinyl-final.3e9a7ea0c2b041ffd397.webp",
-        Rl = n.p + "static/media/vinyl-shadow.771deaa79d796e78dbc4.webp",
+        Ml = n.p + "/__l5e/assets-v1/e01e1e5e-9b30-49aa-8d8e-b0b352c43816/vinyl-final.3e9a7ea0c2b041ffd397.webp",
+        Rl = n.p + "/__l5e/assets-v1/7f9a7acd-fc29-41ff-8f68-4e23a3872d17/vinyl-shadow.771deaa79d796e78dbc4.webp",
         Hl = n.p + "/__l5e/assets-v1/37639585-0313-471d-90e9-e1f0c55e958f/polaroid.b68ad783089c7e3ca89d.webp",
-        jl = n.p + "static/media/polaroid-final.97a40b1930adf6bac783.webp",
-        Dl = n.p + "static/media/polaroid-shadow.bc767166bd6de63c19a5.webp",
-        Ll = n.p + "static/media/telephone.7b9c07eba5d38f3bf881.webp",
-        _l = n.p + "static/media/telephone-final.e800533afc5f705bb7a5.webp",
-        Nl = n.p + "static/media/telephone-shadow.14fd337fe1948f77e9ff.webp",
-        Bl = n.p + "static/media/cassette.c7e3dcda836e88195794.webp",
+        jl = n.p + "/__l5e/assets-v1/df2a669c-0b8c-4925-b629-70d21e926481/polaroid-final.97a40b1930adf6bac783.webp",
+        Dl = n.p + "/__l5e/assets-v1/95c9555d-fc29-417a-a1c7-51cd16c34edf/polaroid-shadow.bc767166bd6de63c19a5.webp",
+        Ll = n.p + "/__l5e/assets-v1/5d512a74-743f-4008-8112-afedb86d2b88/telephone.7b9c07eba5d38f3bf881.webp",
+        _l = n.p + "/__l5e/assets-v1/6750c3c2-b3ca-408f-9f9a-89e347022abe/telephone-final.e800533afc5f705bb7a5.webp",
+        Nl = n.p + "/__l5e/assets-v1/8f194902-4cc7-46b6-9e53-7194822e073b/telephone-shadow.14fd337fe1948f77e9ff.webp",
+        Bl = n.p + "/__l5e/assets-v1/b933f40e-d606-471b-bd41-a3acc481f6bf/cassette.c7e3dcda836e88195794.webp",
         $l = n.p + "/__l5e/assets-v1/5c5c2574-fb65-40ef-82d1-cd8fe4288062/cassette-final.390f0b91127fe0a7246a.webp",
         Vl = n.p + "/__l5e/assets-v1/dd5b5967-7028-4535-a07d-55f9e68fd88d/cassette-shadow.e1401e9e117f7d4d4e69.webp",
-        Ul = n.p + "static/media/flag.ae26c1d1c5d1169723de.webp",
+        Ul = n.p + "/__l5e/assets-v1/abde57d6-9995-45b1-a589-ebec823bf791/flag.ae26c1d1c5d1169723de.webp",
         Wl = n.p + "/__l5e/assets-v1/9186548d-0d71-4068-a1e8-69c3a1a4d92f/flag-shadow.108b4b152d734a1a5995.webp",
         Yl = Ol,
         Xl = zl,
@@ -30159,7 +30238,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
               }),
             ),
           ),
-        ls = n.p + "static/media/flag-104.09e93565680e12a6befb.webp";
+        ls = n.p + "/__l5e/assets-v1/4ea754ae-9f9e-4259-8de9-1afadd21a9e0/flag-104.09e93565680e12a6befb.webp";
       var ss,
         cs,
         us,
@@ -30562,7 +30641,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
         };
       var Xs = n(47913);
       const qs =
-          n.p + "static/media/mlh-logo.2cb9482c60b7b43884c606f5f4b8e567.svg",
+          n.p + "/__l5e/assets-v1/57ad4b68-d783-49d5-86d1-20072b14f1dc/mlh-logo.2cb9482c60b7b43884c606f5f4b8e567.svg",
         Ks = "hero-title",
         Qs = "linear-gradient(90deg, "
           .concat(I.w4.colors.red[300], " 0%, ")
@@ -31781,19 +31860,19 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
         Du = n.p + "/__l5e/assets-v1/0077eaf6-b63e-40e9-94c3-c434ecebc45d/yellow-frame.a306412112c6ac111379.webp",
         Lu = n.p + "/__l5e/assets-v1/c2d54237-8a6b-49da-bf4e-07e16221ac62/separator.a005e7beed4821970477.webp",
         _u = n.p + "/__l5e/assets-v1/751a561c-cf6b-4cfa-9b8b-9b064612f918/separator-mobile.a9ff5d0acac64559feb7.webp",
-        Nu = n.p + "static/media/starfish1.b975e9ba9aaaccfa771f.webp",
-        Bu = n.p + "static/media/starfish2.730537c3b2e9497a83ff.webp",
-        $u = n.p + "static/media/starfish3.893e4c307505fcec4997.webp",
-        Vu = n.p + "static/media/rock1.a871c54c6cf4123ec0a9.webp",
+        Nu = n.p + "/__l5e/assets-v1/af33dede-52f3-45e5-838b-57d449be7dfc/starfish1.b975e9ba9aaaccfa771f.webp",
+        Bu = n.p + "/__l5e/assets-v1/cdea0c14-2285-40e5-8b4f-6e897c7a8925/starfish2.730537c3b2e9497a83ff.webp",
+        $u = n.p + "/__l5e/assets-v1/9ecb34ca-efa0-4796-b56d-087fc6170da9/starfish3.893e4c307505fcec4997.webp",
+        Vu = n.p + "/__l5e/assets-v1/bfca46e8-f023-40d8-bdad-8edcaf5d7e17/rock1.a871c54c6cf4123ec0a9.webp",
         Uu = n.p + "/__l5e/assets-v1/93e0ba5b-38b9-4a96-a466-fb8552f35379/rock2.4de53019e458a889ef2e.webp",
         Wu = n.p + "/__l5e/assets-v1/516ae0c3-80d9-47a9-ac88-3a23de7f87fd/sand.0abbb33cb550ff849bef.webp",
-        Yu = n.p + "static/media/sand-mobile.7512202f7ec2c9c86890.webp";
+        Yu = n.p + "/__l5e/assets-v1/fc8b48ee-ab93-4204-8721-4e7d918fefee/sand-mobile.7512202f7ec2c9c86890.webp";
       var Xu, qu, Ku, Qu;
       const Gu = [
           {
-            ext: n.p + "static/media/wave-ext-3.ab745c3e75262e64cae9.webp",
+            ext: n.p + "/__l5e/assets-v1/d2ede421-f0b0-4fe6-ad7b-b5c8b5fcc295/wave-ext-3.ab745c3e75262e64cae9.webp",
             mobile:
-              n.p + "static/media/wave-ext-3-mobile.e026a06ef519d9ff0257.webp",
+              n.p + "/__l5e/assets-v1/7c71c188-8143-409b-9ca4-4db1758a0eed/wave-ext-3-mobile.e026a06ef519d9ff0257.webp",
             short: n.p + "/__l5e/assets-v1/8b7aed4e-7466-41e2-bf01-d2cafa9d7cee/wave-short-3.c3b063303189573e8616.webp",
             zIndex: 1,
             startOffset: 0,
@@ -31802,7 +31881,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             hasFill: !1,
           },
           {
-            ext: n.p + "static/media/wave-ext-2.24aaa9ee9458b99a9540.webp",
+            ext: n.p + "/__l5e/assets-v1/35756136-a14b-4e86-bda9-26ee5cf48c03/wave-ext-2.24aaa9ee9458b99a9540.webp",
             short: n.p + "/__l5e/assets-v1/56a1544f-6b22-4e47-b727-f4ab9540b3e0/wave-short-2.270c7e0a6a5c82fce77e.webp",
             zIndex: 2,
             startOffset: 15,
@@ -32263,9 +32342,9 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
           ),
         Wd = n.p + "/__l5e/assets-v1/4da21672-8c2f-4a0b-93a8-bd6001921c93/dvd1.15aaf0fe0432ab15d1fd.webp",
         Yd = n.p + "/__l5e/assets-v1/f79ee759-f37f-4d17-8b0c-ee947608905d/dvd2.769a853e748be561f247.webp",
-        Xd = n.p + "static/media/dvd3.7aed46c953e585bbc893.webp",
+        Xd = n.p + "/__l5e/assets-v1/8622f1c2-785d-43fa-be93-4a230e1420d8/dvd3.7aed46c953e585bbc893.webp",
         qd = n.p + "/__l5e/assets-v1/0d47f317-d35b-4288-8784-08e17f2ae80c/leaf2.9425c978a11e9a20f017.webp",
-        Kd = n.p + "static/media/dvd-player.e1299d7bae344c9454e6.webp";
+        Kd = n.p + "/__l5e/assets-v1/0f5525f6-2ede-470e-a246-9ba9c7a1781e/dvd-player.e1299d7bae344c9454e6.webp";
       var Qd, Gd, Zd, Jd, ef, tf;
       const nf = (e) => {
           const t = new URLSearchParams({
@@ -32697,24 +32776,24 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
         Kf = () =>
           t.createElement(cr.A, { id: F.P.STATS }, t.createElement(Ge.A, null)),
         Qf = n.p + "/__l5e/assets-v1/b3817e34-e051-4ca9-bbc2-0f170ad399f6/postcard-rustle.cdab0cf1ca6c3e348cf7.mp3",
-        Gf = n.p + "static/media/bg-left.c4f8777d9bee94dae81a.webp",
-        Zf = n.p + "static/media/leaf-shadow-left.8acbd0045415609abfee.webp",
+        Gf = n.p + "/__l5e/assets-v1/e5e4cbd8-cb33-4564-9cde-358c068f7b22/bg-left.c4f8777d9bee94dae81a.webp",
+        Zf = n.p + "/__l5e/assets-v1/98416d10-226b-4298-8521-9fcc8ee19fcb/leaf-shadow-left.8acbd0045415609abfee.webp",
         Jf =
           n.p +
-          "static/media/leaf-shadow-left-mobile.2072984bcdbe807c2a57.webp",
-        ep = n.p + "static/media/bg-right.beab5787f87bd00b2b2f.webp",
-        tp = n.p + "static/media/leaf-shadow-right.c097cf61f0ffa1a3befd.webp",
+          "/__l5e/assets-v1/bbc34b7a-cea7-44e7-8caf-0398c908f51e/leaf-shadow-left-mobile.2072984bcdbe807c2a57.webp",
+        ep = n.p + "/__l5e/assets-v1/83b84c52-bfaf-4e71-989c-3fc3b6e27db6/bg-right.beab5787f87bd00b2b2f.webp",
+        tp = n.p + "/__l5e/assets-v1/06676ea4-fe42-4ac4-9b13-ee78f51c866d/leaf-shadow-right.c097cf61f0ffa1a3befd.webp",
         np =
           n.p +
-          "static/media/leaf-shadow-right-mobile.9efd63ea76b97b33af82.webp",
-        rp = n.p + "static/media/leaf1.0aae1d418dee758826e2.webp",
+          "/__l5e/assets-v1/da75dbc0-fc04-4d24-b0a2-0f689ea10f07/leaf-shadow-right-mobile.9efd63ea76b97b33af82.webp",
+        rp = n.p + "/__l5e/assets-v1/d28689e0-417e-4e82-a323-892d5a520f2d/leaf1.0aae1d418dee758826e2.webp",
         ip = n.p + "/__l5e/assets-v1/b1496033-aa0f-4ce3-8cba-ef4909fca97a/flag-95.ceedca44db8ee546a4a4.webp",
-        op = n.p + "static/media/postcard1.02b4f0b6d6eff38ac127.webp",
-        ap = n.p + "static/media/postcard2.d2efb84b0b504c6a27cd.webp",
+        op = n.p + "/__l5e/assets-v1/4800f835-e154-4c8a-9e36-909a7c7dba31/postcard1.02b4f0b6d6eff38ac127.webp",
+        ap = n.p + "/__l5e/assets-v1/bf0e9e41-5c3f-4988-9a5d-4f01976eef86/postcard2.d2efb84b0b504c6a27cd.webp",
         lp = n.p + "/__l5e/assets-v1/6887ad12-c401-4e86-b194-152a0deac303/postcard3.707200a92c0429651c00.webp",
-        sp = n.p + "static/media/postcard-mobile1.8fb55d3c842aafe95e18.webp",
+        sp = n.p + "/__l5e/assets-v1/9e009e4e-ed07-4663-94f8-66a11593f43a/postcard-mobile1.8fb55d3c842aafe95e18.webp",
         cp = n.p + "/__l5e/assets-v1/c33b6d36-e8af-4344-8059-873baac83181/postcard-mobile2.6f0ef89c27374d4a916e.webp",
-        up = n.p + "static/media/postcard-mobile3.55ec389a6a4dbd0fd47e.webp",
+        up = n.p + "/__l5e/assets-v1/a64066b1-27f5-48b4-b156-e05a9c74dd90/postcard-mobile3.55ec389a6a4dbd0fd47e.webp",
         dp = n.p + "/__l5e/assets-v1/13fabce0-d67d-42e5-84cf-6d804803cd52/rock.2376e521a245b233dbe5.webp";
       var fp, pp, mp, hp, gp, vp, yp, bp, wp, xp;
       const kp = [-4.85, 0.73, 1.11],
@@ -32894,13 +32973,13 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             }),
           );
         },
-        Lp = n.p + "static/media/camera-body.1ddfb147171f54610653.webp",
-        _p = n.p + "static/media/flash-off.3301338354c34fec05ab.webp",
+        Lp = n.p + "/__l5e/assets-v1/15b95647-fa67-4647-ae44-8400ee48a33d/camera-body.1ddfb147171f54610653.webp",
+        _p = n.p + "/__l5e/assets-v1/21ca7875-e1de-45c8-997e-274307879e59/flash-off.3301338354c34fec05ab.webp",
         Np = n.p + "/__l5e/assets-v1/ab3af4d0-9a72-47d7-b30a-4e3b292395c1/flash-on.2898a3d7ff403dcf9fe2.webp",
-        Bp = n.p + "static/media/lens-neutral.366604089cd8d8bee350.webp",
+        Bp = n.p + "/__l5e/assets-v1/68924903-d92e-4e52-bce4-651f280a7cda/lens-neutral.366604089cd8d8bee350.webp",
         $p = n.p + "/__l5e/assets-v1/9a52c283-6a57-4258-be1f-2c2298765d14/lens-closed.e8d70c37fd1e4eb68d57.webp",
-        Vp = n.p + "static/media/button-clicked.480b069d07b30fd9bddd.webp",
-        Up = n.p + "static/media/button-neutral.a004004624719ab48d6e.webp";
+        Vp = n.p + "/__l5e/assets-v1/0f469d15-1081-42b0-aa64-b49bed5f338d/button-clicked.480b069d07b30fd9bddd.webp",
+        Up = n.p + "/__l5e/assets-v1/4b1827e7-6f1e-4dd8-bb3a-4719f2040c92/button-neutral.a004004624719ab48d6e.webp";
       var Wp, Yp, Xp, qp, Kp, Qp, Gp, Zp, Jp, em, tm, nm;
       const rm = i.Ay.div(
           Wp ||
@@ -33065,8 +33144,8 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             }),
           );
         };
-      const pm = n.p + "static/media/film.23a751ac0c60bc85ff7516d4e65e90fc.svg",
-        mm = n.p + "static/media/film-shine.0d0fa471851aa19cc2f3.webp";
+      const pm = n.p + "/__l5e/assets-v1/8108456b-cd98-46ed-bf44-36d1e72bfc81/film.23a751ac0c60bc85ff7516d4e65e90fc.svg",
+        mm = n.p + "/__l5e/assets-v1/969e7e39-6259-411b-9ad3-8571aca7fc3b/film-shine.0d0fa471851aa19cc2f3.webp";
       var hm, gm, vm, ym, bm, wm, xm, km, Em, Am, Sm, Cm;
       const Tm = [6, -9.1, 2.3],
         Pm = i.Ay.div(
@@ -33235,18 +33314,18 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
           {
             title: "Join a global community",
             text: "Step into a vibrant space of curious, creative students from around the world. Connect with mentors, sponsors, and industry leaders, explore new ideas, and build something you\u2019re proud of, no matter your experience level.",
-            image: n.p + "static/media/photo1.cdd8a1b1e3c2163ba25d.webp",
+            image: n.p + "/__l5e/assets-v1/a7236025-1781-4763-8b79-b6ebf7c349db/photo1.cdd8a1b1e3c2163ba25d.webp",
           },
           {
             title: "Plant the seed of an idea",
             text: "Start with a spark and watch it grow. We\u2019ll support you with mentorship, workshops, and all the tools you need \u2014 so you can focus on building, experimenting, and bringing your ideas to life.",
-            image: n.p + "static/media/photo2.609138771f6a86c2cadc.webp",
+            image: n.p + "/__l5e/assets-v1/f3dae8a7-5b8c-4d6f-a4e7-f64e0c0258c4/photo2.609138771f6a86c2cadc.webp",
             textSide: "right",
           },
           {
             title: "Make lasting memories",
             text: "Take a break from hacking and enjoy fun activities planned just for you! Whether it\u2019s spicy chip challenges or therapy dogs, there\u2019s always a way to recharge and make lasting memories.",
-            image: n.p + "static/media/photo3.f813c02b558d260d63e1.webp",
+            image: n.p + "/__l5e/assets-v1/61b66bc3-8f4e-44e1-9c56-5cea42c676e2/photo3.f813c02b558d260d63e1.webp",
           },
         ];
       var _m,
@@ -33876,7 +33955,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             t.createElement(we, { colour: I.w4.colors.sky.primary.dim }),
           );
         },
-        sg = n.p + "static/media/404-wide.a4b5a7474364e7b5816d.webp",
+        sg = n.p + "/__l5e/assets-v1/eae03e74-5a82-4293-acdb-bb0396aeb2c3/404-wide.a4b5a7474364e7b5816d.webp",
         cg = n.p + "/__l5e/assets-v1/92d845f9-3605-4748-b9e9-c1aef84134ff/404.d2d64d36f12dd5fcda00.webp";
       var ug, dg, fg, pg, mg, hg, gg;
       const vg = i.Ay.div(

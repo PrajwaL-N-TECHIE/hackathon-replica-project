@@ -27015,7 +27015,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
         n.p + "/__l5e/assets-v1/d1d16f8d-cdae-49a3-a5a2-3e1223eee7f8/sky-birds-1.15d06bd3de7d7a2e34d4423585587564.svg";
       const jt =
           n.p + "/__l5e/assets-v1/80451f37-437c-4b8b-a149-7f35914d8ca8/sky-birds-2.8e056a0ca6ee99a5dec8ed673222613f.svg",
-        Dt = n.p + "static/media/sky-cloud.d63139abf14a06ab03f0.webp",
+        Dt = n.p + "/__l5e/assets-v1/dc6ca468-6546-466b-b2c0-9fe8315d6e49/sky-cloud.d63139abf14a06ab03f0.webp",
         Lt = n.p + "/__l5e/assets-v1/d49ab48d-bc8e-4055-9e8c-d07428b6d4ee/sky-textures.fabb6ab064cd46831db1.webp",
         _t = n.p + "/__l5e/assets-v1/b9de4354-7439-4393-b9a7-6f12a9463f96/waterloo-eng.f7484d0d0d301b6884d3.webp",
         Nt = "linear-gradient(\n  180deg,\n  #d7ce8a 0%,\n  "
@@ -27941,7 +27941,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
           );
         },
         Kn = n.p + "/__l5e/assets-v1/adb5bb55-3575-4a81-8124-7947dd9180e7/bg-left-1200.daf5a5ec16b545bf3eb9.webp",
-        Qn = n.p + "static/media/bg-left-mobile.6eb76724ecad74313820.webp",
+        Qn = n.p + "/__l5e/assets-v1/be3e911f-ddb4-4a7a-9a3a-c0ceb3d249da/bg-left-mobile.6eb76724ecad74313820.webp",
         Gn = n.p + "/__l5e/assets-v1/5951d0f8-b723-4879-8e69-69c2e3a23d99/bg-left-tablet.ca6a33f8dd177c495610.webp",
         Zn = n.p + "/__l5e/assets-v1/149dbe47-806d-4d61-b026-643458522860/bg-right-1200.ba4f5eb680172da5631c.webp",
         Jn = n.p + "/__l5e/assets-v1/0156ac8c-086f-4db3-8804-7df5b7c0c2c6/bg-right-mobile.f7378f3a1b1f2376c30f.webp",
@@ -29871,7 +29871,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
       var hl;
       const gl = {
           front: n.p + "/__l5e/assets-v1/632e373c-7a4a-4bde-933d-4c53ffd4fa24/mountain-front.72ad1bcc0cf2ace48cb8.webp",
-          back: n.p + "static/media/mountain-left.5401660b0f5473d0567f.webp",
+          back: n.p + "/__l5e/assets-v1/d6e0c9f9-e89f-4f2e-9ed0-0acd5bfc8164/mountain-left.5401660b0f5473d0567f.webp",
         },
         vl = i.Ay.img(
           hl ||
@@ -29927,7 +29927,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
           "leaf-1-warm":
             n.p + "/__l5e/assets-v1/81f8a6e2-14fa-4a09-9fdb-548a70e03b06/plains-leaf-1-warm.0d0df83b97310c591465.webp",
           "leaf-2-cool":
-            n.p + "static/media/plains-leaf-2-cool.16baaa091e29af6d4abf.webp",
+            n.p + "/__l5e/assets-v1/d7981440-8d31-4837-8619-44e741dd5379/plains-leaf-2-cool.16baaa091e29af6d4abf.webp",
           "leaf-2-warm":
             n.p + "/__l5e/assets-v1/6e50d43a-e89c-4bc4-8fb6-3c9cc620d6cc/plains-leaf-2-warm.0d1d10732771a522dbaf.webp",
           "plant-cool":
@@ -34070,7 +34070,7 @@ else if(['/','/privacy','/code-of-conduct','/travel-guidelines'].includes(url.pa
             ),
           );
         },
-        Sg = n.p + "static/media/background.e8365f2af70c4ea03591.webp";
+        Sg = n.p + "/__l5e/assets-v1/9b8bc7ab-3b82-4353-a901-80a14138d665/background.e8365f2af70c4ea03591.webp";
       var Cg;
       const Tg = [
           { id: "preface", title: "Preface" },
